@@ -1,0 +1,90 @@
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.navigation .menu-link .contacts .tel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.menu-two {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 0px;
+}
+.email-icon {
+    display: inline-block;
+    align-items: center;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+.tel-icon {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+.email-icon:hover,
+.tel-icon:hover {
+    color: var(--hover-color);
+}
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+.menu-link {
+    color: var(--second-color);
+    transition: color 250ms var(--timing-func);
+    text-decoration: none;
+    box-shadow: 250ms var(--timing-func);
+}
+.current {
+    top: 0;
+    position: relative;
+    color: var(--hover-color);
+}
+.current::after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--hover-color);
+}
+.menu-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    fill: currentColor;
+}
+.contacts,
+.tel-link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    transition: color 250ms var(--timing-func);
+}
+.menu-link:hover,
+.menu-link:focus,
+.contacts:hover,
+.contacts:focus,
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--hover-color);
+}

@@ -1,4 +1,4 @@
-:root {
+/*:root {
   --main-color: #212121;
   --second-color: #757575;
   --hover-color: #2196f3;
@@ -12,13 +12,15 @@
   --portfolio-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   --timing-func: cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
+/*
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
   margin: 0;
 }
-h1,
+*/
+/*h1,
 h2,
 h3,
 h4,
@@ -32,24 +34,26 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-}
-img {
+}*/
+/*img {
   display: block;
-}
-ul {
+}*/
+/*ul {
   list-style: none;
 }
 .link {
   text-decoration: none;
   color: inherit;
-}
-.section {
+}*/
+/*.section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+}*/
+
+/*
 .visually-hidden {
   position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
@@ -57,8 +61,9 @@ ul {
   width: 1px !important;
   overflow: hidden;
 }
+*/
 
-.hidden {
+/*.hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -69,26 +74,31 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
+
 /*Container*/
-.header {
+
+/*.header {
   padding: 32px 0px 32px 0px;
   border: 1px solid var(--border);
-}
-.container {
+}*/
+
+/*.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-}
-.header-container {
+}*/
+/*.header-container {
   display: flex;
   align-items: center;
-}
+}*/
+
 /* Логотип */
-.logo-link {
+
+/*.logo-link {
   font-family: 'Raleway', sans-serif;
   width: 145px;
   font-weight: 700;
@@ -101,8 +111,8 @@ ul {
 }
 .logo-link > span {
   color: var(--hover-color);
-}
-.navigation {
+}*/
+/*.navigation {
   display: flex;
   align-items: center;
 }
@@ -191,9 +201,11 @@ ul {
 .tel-link:hover,
 .tel-link:focus {
   color: var(--hover-color);
-}
+}*/
+
 /*Герой*/
-.hero {
+
+/*.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -214,8 +226,9 @@ ul {
   background-position: center;
   background-size: cover;
   background-color: var(--end-color);
-}
-.hero-title {
+}*/
+
+/*.hero-title {
   width: 696px;
   margin: 0 auto 30px;
   color: var(--white-color);
@@ -224,9 +237,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+}*/
+
 /*Кнопка*/
-.modal-btn {
+
+/*.modal-btn {
   min-width: 200px;
   border-radius: 4px;
   padding: 10px 32px;
@@ -243,9 +258,10 @@ ul {
   cursor: pointer;
   transition: border-color 250ms var(--timing-func),
     color 250ms var(--timing-func), background-color 250ms var(--timing-func);
-}
+}*/
 /*Особенности*/
-.features {
+
+/*.features {
   padding-bottom: 47px;
 }
 .features-list {
@@ -257,9 +273,9 @@ ul {
   width: 270px;
   margin-left: 30px;
   margin-top: 30px;
-}
+}*/
 
-.icon-container {
+/*.icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,7 +283,7 @@ ul {
   margin-bottom: 30px;
   background-color: var(--new-color);
   border-radius: 4px;
-}
+}*/
 .features-title {
   margin-bottom: 10px;
   font-style: normal;
@@ -632,7 +648,7 @@ ul {
 .portfolio-item:not(:last-child) {
   margin-right: 8px;
 }
-.portfolio .btn-filter {
+/*.portfolio .btn-filter {
   background-color: var(--new-color);
   font-weight: 500;
   font-size: 16px;
@@ -655,7 +671,7 @@ ul {
   transition: transform 250ms var(--timing-func);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+}*/
 .portfolio .portfolio-title {
   margin-bottom: 4px;
   font-style: normal;
@@ -733,7 +749,7 @@ ul {
   border-color: var(--hover-color);
   transition: transform 250ms var(--timing-func);
 }
-.footer-form-btn {
+/*.footer-form-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -760,7 +776,7 @@ ul {
 .footer-btn-icon {
   fill: var(--white-color);
   margin-left: 10px;
-}
+}*/
 /*Modal window*/
 .backdrop {
   position: fixed;
@@ -790,7 +806,7 @@ ul {
   visibility: hidden;
   pointer-events: none;
 }
-.modal-close-btn {
+/*.modal-close-btn {
   position: absolute;
   border-radius: 50%;
   top: 8px;
@@ -814,7 +830,7 @@ ul {
 .modal-close-btn:focus .close-btn-icon {
   fill: var(--hover-color);
   transition: transform 250ms var(--timing-func);
-}
+}*/
 /*Форма*/
 .modal-form {
   display: flex;
@@ -947,7 +963,7 @@ border-color: red;
 .checkbox{
   position: relative;
 }
-.modal-form-btn {
+/*.modal-form-btn {
   align-self: center;
   margin-top: 30px;
   font-weight: 700;
@@ -968,4 +984,4 @@ border-color: red;
 .modal-form-btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: transform 250ms var(--timing-func);
-}
+}*/
