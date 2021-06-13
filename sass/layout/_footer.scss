@@ -1,0 +1,68 @@
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--two-color);
+    flex-direction: column;
+}
+.footer .logo-link-two {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    width: 145px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+.footer .logo-color {
+    color: var(--white-color);
+}
+.logo-link-two > span {
+    color: var(--hover-color);
+}
+.footer-list {
+    display: inline-block;
+    }
+.map-link {
+    min-width: 231px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    text-decoration: none;
+}
+.map-link,
+.contacts-two {
+    display: inline-block;
+}
+.address:hover {
+    color: var(--white-color);
+}  
+.contacts-two,
+.tel-link-two {
+    font-style: normal;
+    color: var(--second-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    transition: color 250ms var(--timing-func);
+    }
+.tel-link-two .contacts-two {
+    color: rgba(255, 255, 255, 0.6);
+    }
+.footer,
+.address,
+.contacts-two:hover,
+.tel-link-two:hover {
+    color: var(--hover-color);
+}
+.address-link:not(:last-child) {
+    margin-bottom: 9px;
+}

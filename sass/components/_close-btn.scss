@@ -1,25 +1,11 @@
-.modal-close-btn {
-    position: absolute;
-    border-radius: 50%;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    cursor: pointer;
-    padding: 0;
-    transition: transform 250ms var(--timing-func);
-}
 .close-btn-icon {
     color: var(--close-color);
     width: 11px;
     height: 11px;
     
-}
+    }
 .modal-close-btn:hover .close-btn-icon,
 .modal-close-btn:focus .close-btn-icon {
     fill: var(--hover-color);
     transition: transform 250ms var(--timing-func);
-}
+    }

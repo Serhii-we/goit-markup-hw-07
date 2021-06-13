@@ -7,23 +7,28 @@
 @import"./base/common";
 @import"./base/section";
 @import"./base/container";
-@import"./base/header";
-@import"./base/header-container";
-@import"./base/section-hero";
-@import"./base/features-section";
-@import"./base/icon-container";
 
 //Components
-@import"./components/logo-link";
-@import"./components/hero-title";
-@import"./components/menu";
-@import"./components/modal-btn";
-@import"./components/features-title";
-@import"./components/portfolio-btn";
-@import"./components/form-btn";
+@import"./components/backdrop";
+@import"./components/modal-window";
 @import"./components/close-btn";
+@import"./components/modal-btn";
+@import"./components/main";
+@import"./components/portfolio-title";
+@import"./components/portfolio-btn";
+@import"./components/overlay";
+@import"./components/modal-form";
+@import"./components/form-btn";
 @import"./components/button-form";
 
 //Layout
-
+@import"./layout/header";
+@import"./layout/hero";
+@import"./layout/features";
+@import"./layout/we-doing";
+@import"./layout/social";
+@import"./layout/clients";
+@import"./layout/footer";
+@import"./layout/network";
+@import"./layout/subscribe";
 
