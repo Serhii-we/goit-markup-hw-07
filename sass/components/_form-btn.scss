@@ -17,10 +17,11 @@
     cursor: pointer;
     transition: background-color 250ms var(--timing-func),
     box-shadow 250ms var(--timing-func);
-}
-.footer-form-btn:hover,
-.footer-form-btn:focus {
+
+    &:hover,
+    &:focus {
     transition: transform 250ms var(--timing-func);
+    }
 }
 .footer-btn-icon {
     fill: var(--white-color);

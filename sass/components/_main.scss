@@ -16,16 +16,21 @@
     margin-top: 30px;
     flex-basis: calc((100% - 120px) / 9);
     transition: box-shadow 250ms var(--timing-func);
-}
-.techno-item:hover,
-.techno-item:focus,
-.techno-link:hover,
-.techno-link:focus {
+
+    &:hover,
+    &:focus {
     box-shadow: var(--portfolio-shadow);
     transition: box-shadow 250ms var(--timing-func);
+    }
 }
 .techno-link {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.025));
+
+    &:hover,
+    &:focus {
+    box-shadow: var(--portfolio-shadow);
+    transition: box-shadow 250ms var(--timing-func);
+    }
 }
 .team-list-img-wrapper:hover,
 .team-list-img-wrapper:focus {

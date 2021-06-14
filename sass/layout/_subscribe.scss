@@ -27,8 +27,9 @@
     color: var(--white-color);
     outline: none;
     transition: transform 250ms var(--timing-func);
-}
-.footer-form-input:focus {
-    border-color: var(--hover-color);
-    transition: transform 250ms var(--timing-func);
+
+    &:focus {
+        border-color: var(--hover-color);
+        transition: transform 250ms var(--timing-func);
     }
+}

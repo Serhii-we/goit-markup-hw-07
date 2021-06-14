@@ -1,12 +1,13 @@
-.footer-container {
-    display: flex;
-    align-items: baseline;
-}
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--two-color);
     flex-direction: column;
+
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+    }
 }
 .footer .logo-link-two {
     font-family: 'Raleway', sans-serif;
@@ -26,16 +27,17 @@
 }
 .footer-list {
     display: inline-block;
+
+    .map-link {
+        min-width: 231px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--white-color);
+        text-decoration: none;
     }
-.map-link {
-    min-width: 231px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--white-color);
-    text-decoration: none;
 }
 .map-link,
 .contacts-two {
