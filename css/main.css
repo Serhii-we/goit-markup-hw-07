@@ -484,7 +484,7 @@ img {
   display: flex;
   align-items: center;
 }
-.header .navigation {
+.header .header__navigation {
   display: flex;
   align-items: center;
 }
