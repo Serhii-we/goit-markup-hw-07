@@ -514,12 +514,13 @@ img {
   letter-spacing: 0.02em;
 }
 
-.menu {
+.menu__list {
   display: flex;
   align-items: center;
   padding: 0px;
 }
-.menu .menu__item {
+
+.menu__item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -527,7 +528,8 @@ img {
   color: var(--main-color);
   fill: currentColor;
 }
-.menu .menu__link {
+
+.menu__link {
   color: var(--second-color);
   transition: color 250ms var(--timing-func);
   text-decoration: none;
@@ -540,9 +542,8 @@ img {
   margin-left: auto;
   padding: 0px;
 }
-
-.contacts__link,
-.tel__link {
+.menu__two .contacts__link,
+.menu__two .tel__link {
   display: flex;
   align-items: center;
   font-weight: 500;
