@@ -1,4 +1,4 @@
-.footer-form-btn {
+.footer__form-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@
     transition: transform 250ms var(--timing-func);
     }
 }
-.footer-btn-icon {
+.footer__btn-icon {
     fill: var(--white-color);
     margin-left: 10px;
 }

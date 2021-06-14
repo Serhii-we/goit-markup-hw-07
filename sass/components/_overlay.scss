@@ -1,4 +1,4 @@
-.team-list-img-wrapper {
+.techno__img-wrapper {
     position: relative;
     overflow: hidden;
 }
@@ -17,8 +17,8 @@
     background-color: rgba(33, 150, 243, 0.9);
     color: var(--white-color);
     }
-.techno-link:hover .overlay,
-.techno-link:focus .overlay {
+.techno__link:hover .overlay,
+.techno__link:focus .overlay {
     transform: translateY(0%);
     transition: transform 250ms var(--timing-func);
     }

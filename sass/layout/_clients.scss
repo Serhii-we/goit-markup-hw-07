@@ -1,7 +1,7 @@
 .clients {
     padding-top: 47px;
 
-    .clients-list {
+    .clients__list {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -10,12 +10,12 @@
         margin-left: -30px;
     }
 
-    .clients-list-item {
+    .clients__list-item {
         margin-top: 30px;
         margin-left: 30px;
     }
 }
-.clients-title {
+.clients__title {
     text-align: center;
     margin-bottom: 50px;
     font-weight: 700;
@@ -24,7 +24,7 @@
     letter-spacing: 0.03em;
     color: var(--main-color);
     }
-.clients-list-link {
+.clients__list-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,12 +39,12 @@
     &:focus {
     color: var(--fill-color);
     border-color: var(--hover-color);
-    .clients-list-icon {
+    .clients__list-icon {
         fill: var(--hover-color);
         }
     }
 }
-.clients-list-icon {
+.clients__list-icon {
     fill: var(--fill-color);
     transition: fill 250ms var(--timing-func);
     }

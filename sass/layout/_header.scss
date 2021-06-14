@@ -2,7 +2,7 @@
     padding: 32px 0px 32px 0px;
     border: 1px solid var(--border);
 
-    .header-container {
+    .header__container {
         display: flex;
         align-items: center;
     }
@@ -12,7 +12,7 @@
         align-items: center;
     }
 }
-.logo-link {
+.logo__link {
     font-family: 'Raleway', sans-serif;
     width: 145px;
     font-weight: 700;
@@ -23,10 +23,10 @@
     animation-duration: 2500ms;
     animation-iteration-count: 1;
 }
-.logo-link > span {
+.logo__link > span {
     color: var(--hover-color);
 }
-.navigation .menu-link .contacts .tel-link {
+.navigation .menu__link .contacts__link .tel-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -37,7 +37,7 @@
     align-items: center;
     padding: 0px;
 
-    .menu-item {
+    .menu__item {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.4;
@@ -46,21 +46,21 @@
         fill: currentColor;
     }
 
-    .menu-link {
+    .menu__link {
         color: var(--second-color);
         transition: color 250ms var(--timing-func);
         text-decoration: none;
         box-shadow: 250ms var(--timing-func);
     }
 }
-.menu-two {
+.menu__two {
     display: flex;
     align-items: center;
     margin-left: auto;
     padding: 0px;
 }
-.contacts,
-.tel-link {
+.contacts__link,
+.tel__link {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -71,9 +71,9 @@
     transition: color 250ms var(--timing-func);
     }
 
-.contacts,
-.tel-link {
-.email-icon {
+.contacts__link,
+.tel__link {
+.email__icon {
         display: inline-block;
         align-items: center;
         width: 16px;
@@ -84,7 +84,7 @@
         color: var(--hover-color);
         }
     }
-    .tel-icon {
+    .tel__icon {
         display: inline-block;
         align-items: center;
         width: 10px;
@@ -96,7 +96,7 @@
         }
     }
 }
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
     margin-right: 50px;
 }
 .current {
@@ -114,11 +114,11 @@
         background-color: var(--hover-color);
     }
 }
-.menu-link:hover,
-.menu-link:focus,
-.contacts:hover,
-.contacts:focus,
-.tel-link:hover,
-.tel-link:focus {
+.menu__link:hover,
+.menu__link:focus,
+.contacts__link:hover,
+.contacts__link:focus,
+.tel__link:hover,
+.tel__link:focus {
     color: var(--hover-color);
 }

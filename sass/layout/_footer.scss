@@ -4,12 +4,12 @@
     background-color: var(--two-color);
     flex-direction: column;
 
-    .footer-container {
+    .footer__container {
         display: flex;
         align-items: baseline;
     }
 }
-.footer .logo-link-two {
+.footer .logo__two {
     font-family: 'Raleway', sans-serif;
     display: inline-block;
     width: 145px;
@@ -19,16 +19,16 @@
     letter-spacing: 0.03em;
     margin-bottom: 20px;
 }
-.footer .logo-color {
+.footer .logo__color {
     color: var(--white-color);
 }
-.logo-link-two > span {
+.logo__two > span {
     color: var(--hover-color);
 }
-.footer-list {
+.footer__list {
     display: inline-block;
 
-    .map-link {
+    .map__link {
         min-width: 231px;
         font-style: normal;
         font-weight: 400;
@@ -39,15 +39,15 @@
         text-decoration: none;
     }
 }
-.map-link,
-.contacts-two {
+.map__link,
+.contacts__two {
     display: inline-block;
 }
 .address:hover {
     color: var(--white-color);
 }  
-.contacts-two,
-.tel-link-two {
+.contacts__two,
+.tel__two {
     font-style: normal;
     color: var(--second-color);
     font-weight: 400;
@@ -56,15 +56,15 @@
     letter-spacing: 0.03em;
     transition: color 250ms var(--timing-func);
     }
-.tel-link-two .contacts-two {
+.tel__two .contacts__two {
     color: rgba(255, 255, 255, 0.6);
     }
 .footer,
 .address,
-.contacts-two:hover,
-.tel-link-two:hover {
+.contacts__two:hover,
+.tel__two:hover {
     color: var(--hover-color);
 }
-.address-link:not(:last-child) {
+.address__link:not(:last-child) {
     margin-bottom: 9px;
 }

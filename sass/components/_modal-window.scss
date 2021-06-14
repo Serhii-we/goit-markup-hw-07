@@ -10,7 +10,7 @@
     transform: translate(-50%, -50%);
     padding: 40px;
 
-    .modal-close-btn {
+    .modal__close-btn {
     position: absolute;
     border-radius: 50%;
     top: 8px;
@@ -31,9 +31,7 @@
     }
     }
 }
-
-
-.close-btn-icon {
+.close__btn {
     color: var(--close-color);
     width: 11px;
     height: 11px;

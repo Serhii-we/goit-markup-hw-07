@@ -1,7 +1,7 @@
-.we-doing {
+.we__doing {
     padding-top: 47px;
 
-    .we-doing-title {
+    .we__title {
         display: flex;
         justify-content: center;
         min-width: 376px;
@@ -13,19 +13,19 @@
         text-align: center;
     }
 }
-.doing-list {
+.doing__list {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
 
-    .doing-item {
+    .doing__item {
         margin-left: 30px;
         margin-top: 30px;
         flex-basis: calc((100% - 90px) / 3);
     }
 }  
-.doing-list .description-item {
+.doing__list .description__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     }
-.doing-list .doing-item {
+.doing__list .doing__item {
     position: relative;
     }

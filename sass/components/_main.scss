@@ -11,7 +11,7 @@
     margin-top: -30px;
     padding: 0px;
 }
-.techno-item {
+.techno__item {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 120px) / 9);
@@ -23,7 +23,7 @@
     transition: box-shadow 250ms var(--timing-func);
     }
 }
-.techno-link {
+.techno__link {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.025));
 
     &:hover,
@@ -32,11 +32,11 @@
     transition: box-shadow 250ms var(--timing-func);
     }
 }
-.team-list-img-wrapper:hover,
-.team-list-img-wrapper:focus {
+.techno__img-wrapper:hover,
+.techno__img-wrapper:focus {
     box-shadow: var(--portfolio-shadow);
 }
-.card-container {
+.card__container {
     padding: 20px 24px;
     border: 1px solid var(--border);
     box-sizing: border-box;
