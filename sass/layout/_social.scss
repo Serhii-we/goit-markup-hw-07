@@ -23,12 +23,11 @@
     &:hover,
     &:focus {
     background-color: var(--hover-color);
+    .social-list-icon {
+      fill: var(--white-color);
+    }
   }
 }
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-    fill: var(--white-color);
-  }
 .our-team:nth-child(2n) {
     background-color: var(--new-color);
     margin-bottom: 0px;

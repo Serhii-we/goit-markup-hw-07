@@ -41,10 +41,8 @@
     &:hover,
     &:focus {
     background-color: var(--hover-color);
+    .network-list-icon {
+      fill: var(--white-color);
+    }
   }
 }
-
-.network-list-link:hover .network-list-icon,
-.network-list-link:focus .network-list-icon {
-    fill: var(--white-color);
-  }

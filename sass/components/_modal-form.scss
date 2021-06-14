@@ -96,7 +96,7 @@
         border:2px solid var(--main-color);
         border-radius: 3px;
     } 
-    }
+}
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before {
     background-image: url('../images/checked.svg');
     background-color: var(--hover-color) ;

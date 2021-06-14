@@ -23,5 +23,23 @@
     cursor: pointer;
     padding: 0;
     transition: transform 250ms var(--timing-func);
+
+    &:hover,
+    &:focus  {
+    fill: var(--hover-color);
+    transition: transform 250ms var(--timing-func);
+    }
+    }
+}
+
+
+.close-btn-icon {
+    color: var(--close-color);
+    width: 11px;
+    height: 11px;
+    .modal-close-btn:hover &,
+    .modal-close-btn:focus & {
+    fill: var(--hover-color);
+    transition: transform 250ms var(--timing-func);
     }
 }

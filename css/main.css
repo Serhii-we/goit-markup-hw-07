@@ -133,15 +133,17 @@ img {
   padding: 0;
   transition: transform 250ms var(--timing-func);
 }
+.modal .modal-close-btn:hover, .modal .modal-close-btn:focus {
+  fill: var(--hover-color);
+  transition: transform 250ms var(--timing-func);
+}
 
 .close-btn-icon {
   color: var(--close-color);
   width: 11px;
   height: 11px;
 }
-
-.modal-close-btn:hover .close-btn-icon,
-.modal-close-btn:focus .close-btn-icon {
+.modal-close-btn:hover .close-btn-icon, .modal-close-btn:focus .close-btn-icon {
   fill: var(--hover-color);
   transition: transform 250ms var(--timing-func);
 }
@@ -585,7 +587,6 @@ img {
   position: relative;
   color: var(--hover-color);
 }
-
 .current::after {
   content: "";
   position: absolute;
@@ -757,9 +758,7 @@ img {
 .social-list-link:hover, .social-list-link:focus {
   background-color: var(--hover-color);
 }
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
+.social-list-link:hover .social-list-icon, .social-list-link:focus .social-list-icon {
   fill: var(--white-color);
 }
 
@@ -854,21 +853,17 @@ img {
   border-radius: 4px;
   transition: border-color 250ms var(--timing-func);
 }
+.clients-list-link:hover, .clients-list-link:focus {
+  color: var(--fill-color);
+  border-color: var(--hover-color);
+}
+.clients-list-link:hover .clients-list-icon, .clients-list-link:focus .clients-list-icon {
+  fill: var(--hover-color);
+}
 
 .clients-list-icon {
   fill: var(--fill-color);
   transition: fill 250ms var(--timing-func);
-}
-
-.clients-list-link:hover,
-.clients-list-link:focus {
-  color: var(--fill-color);
-  border-color: var(--hover-color);
-}
-
-.clients-list-link:hover .clients-list-icon,
-.clients-list-link:focus .clients-list-icon {
-  fill: var(--hover-color);
 }
 
 .footer {
@@ -998,9 +993,7 @@ img {
 .network-list-link:hover, .network-list-link:focus {
   background-color: var(--hover-color);
 }
-
-.network-list-link:hover .network-list-icon,
-.network-list-link:focus .network-list-icon {
+.network-list-link:hover .network-list-icon, .network-list-link:focus .network-list-icon {
   fill: var(--white-color);
 }
 

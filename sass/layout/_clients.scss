@@ -34,17 +34,17 @@
     box-sizing: border-box;
     border-radius: 4px;
     transition: border-color 250ms var(--timing-func);
+
+    &:hover,
+    &:focus {
+    color: var(--fill-color);
+    border-color: var(--hover-color);
+    .clients-list-icon {
+        fill: var(--hover-color);
+        }
     }
+}
 .clients-list-icon {
     fill: var(--fill-color);
     transition: fill 250ms var(--timing-func);
-    }
-.clients-list-link:hover,
-.clients-list-link:focus {
-    color: var(--fill-color);
-    border-color: var(--hover-color);
-    }
-.clients-list-link:hover .clients-list-icon,
-.clients-list-link:focus .clients-list-icon {
-    fill: var(--hover-color);
     }
